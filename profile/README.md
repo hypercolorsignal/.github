@@ -1,7 +1,11 @@
-<div align="center">
-  <img src="assets/hypercolorsignal.svg" alt="HyperColorSignal — white italic lettering with a magenta-to-gold orbit and signal flare" width="760" />
+<p align="center"><a href="https://github.com/hypercolorsignal"><img src="assets/hypercolorsignal.svg" alt="HyperColorSignal wordmark with a magenta-to-gold orbit and signal flare" width="400"></a></p>
 
-  <h1>A little color. A clear signal.</h1>
+hypercolorsignal is a collective in Fortaleza, Ceará, building open-source software that puts control back in your hands—away from Big Tech and corporate lock-in.
 
-  <p>Welcome to HyperColorSignal.</p>
-</div>
+We build in the open. Explore what we’re making, share an idea, or lend a hand—we’d love to hear from you!
+
+## Get in touch!
+
+- 🧭 [Explore our GitHub projects](https://github.com/orgs/hypercolorsignal/repositories)
+- 🌐 [hypercolorsignal.dev](https://hypercolorsignal.dev)
+- ✉️ [hey@hypercolorsignal.dev](mailto:hey@hypercolorsignal.dev)
