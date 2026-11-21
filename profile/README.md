@@ -1,4 +1,12 @@
-<p align="center"><a href="https://github.com/hypercolorsignal"><img src="assets/hypercolorsignal.svg" alt="HyperColorSignal wordmark with a magenta-to-gold orbit and signal flare" width="400"></a></p>
+<p align="center">
+  <a href="https://github.com/hypercolorsignal">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/hcs-monogram-dark.png">
+      <source media="(prefers-color-scheme: light)" srcset="assets/hcs-monogram-light.png">
+      <img src="assets/hcs-monogram-light.png" alt="HCS monogram in italic lettering, surrounded by a magenta-to-gold orbit and a golden signal flare" width="250" height="250">
+    </picture>
+  </a>
+</p>
 
 hypercolorsignal is a collective in Fortaleza, Ceará, building open-source software that puts control back in your hands—away from Big Tech and corporate lock-in.
 
