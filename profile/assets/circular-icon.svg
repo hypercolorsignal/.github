@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
+  <title id="title">HyperColorSignal circular icon</title>
+  <desc id="desc">A pink-to-gold pair of tapered orbit ribbons framing a four-point signal flare on a white disc.</desc>
+  <defs>
+    <linearGradient id="spectrum" x1="1245" y1="292" x2="1422" y2="195" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f532dc"/>
+      <stop offset=".32" stop-color="#f8647b"/>
+      <stop offset=".64" stop-color="#fb846c"/>
+      <stop offset="1" stop-color="#fdc563"/>
+    </linearGradient>
+    <linearGradient id="star" x1="1288" y1="243" x2="1374" y2="243" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7658f"/>
+      <stop offset=".14" stop-color="#f24471"/>
+      <stop offset=".55" stop-color="#f46f6c"/>
+      <stop offset="1" stop-color="#fb845c"/>
+    </linearGradient>
+    <linearGradient id="star-top-tone" x1="1332" y1="191" x2="1332" y2="243" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f5b77c" stop-opacity=".72"/>
+      <stop offset=".2" stop-color="#f5c980" stop-opacity=".82"/>
+      <stop offset=".38" stop-color="#f09e4a" stop-opacity=".72"/>
+      <stop offset=".58" stop-color="#fba669" stop-opacity=".58"/>
+      <stop offset=".78" stop-color="#f4804e" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#f46f6c" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="star-bottom-tone" x1="1332" y1="243" x2="1332" y2="294" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ee4772" stop-opacity="0"/>
+      <stop offset=".15" stop-color="#ee4772" stop-opacity=".2"/>
+      <stop offset=".35" stop-color="#ed3c80" stop-opacity=".35"/>
+      <stop offset=".68" stop-color="#e52c74" stop-opacity=".5"/>
+      <stop offset=".88" stop-color="#f05e87" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#f05e87" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <circle id="background" cx="150" cy="150" r="146" fill="#fff"/>
+  <!-- Separate filled ribbons reproduce the source mark's unequal taper and open ends. -->
+  <g id="icon-mark" transform="matrix(1.264 0 0 1.264 -1531.12 -156.52)" fill="url(#spectrum)">
+     <path id="orbit-left" d="M1241 276C1244 263 1279 236 1317 216C1313 222 1307 227 1300 232C1276 248 1254 266 1250 276C1247 284 1253 289 1263 289C1280 289 1301 282 1318 276C1306 284 1286 290 1268 293C1257 294 1248 293 1242 289C1237 286 1238 280 1241 276Z"/>
+     <path id="orbit-right" d="M1342 205C1368 195 1393 190 1407 193C1420 196 1424 204 1420 213C1414 228 1383 249 1348 265C1372 247 1396 231 1407 217C1415 206 1412 199 1405 198C1394 195 1367 200 1342 208C1340 207 1341 206 1342 205Z"/>
+  </g>
+   <g id="spark" transform="matrix(1.264 0 0 1.264 -1531.12 -156.52)">
+        <!-- Reuse one rotationally symmetric path so the color overlays stay registered. -->
+        <path id="spark-base" fill="url(#star)" d="M1332 191.5C1334.04 230.26 1344.24 240.46 1383 242.5C1344.24 244.54 1334.04 254.74 1332 293.5C1329.96 254.74 1319.76 244.54 1281 242.5C1319.76 240.46 1329.96 230.26 1332 191.5Z"/>
+        <path id="spark-top-tone" fill="url(#star-top-tone)" d="M1332 191.5C1334.04 230.26 1344.24 240.46 1383 242.5C1344.24 244.54 1334.04 254.74 1332 293.5C1329.96 254.74 1319.76 244.54 1281 242.5C1319.76 240.46 1329.96 230.26 1332 191.5Z"/>
+        <path id="spark-bottom-tone" fill="url(#star-bottom-tone)" d="M1332 191.5C1334.04 230.26 1344.24 240.46 1383 242.5C1344.24 244.54 1334.04 254.74 1332 293.5C1329.96 254.74 1319.76 244.54 1281 242.5C1319.76 240.46 1329.96 230.26 1332 191.5Z"/>
+  </g>
+</svg>
